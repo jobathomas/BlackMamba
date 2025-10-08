@@ -50,3 +50,4 @@ def myAI(state: GameState) -> Turn:
 
     #from examples.smartAI import smartAI
     #return smartAI(state)
+print('mum')
