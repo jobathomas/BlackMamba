@@ -14,7 +14,6 @@ Below is all of the data you'll need, and some small examples that you can uncom
 
 def myAI(state: GameState) -> Turn:
 
-
     grid_width: int = state.width
     grid_height: int = state.height
     food: set = state.food
@@ -46,4 +45,6 @@ def myAI(state: GameState) -> Turn:
     # return dumbAI(state)
 
     from examples.smartAI import smartAI
+
+
     return smartAI(state)
