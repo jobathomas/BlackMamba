@@ -14,9 +14,6 @@ Below is all of the data you'll need, and some small examples that you can uncom
 
 def myAI(state: GameState) -> Turn:
 
-    # ======================================
-    # =         Some Useful data.          =
-    # ======================================
 
     grid_width: int = state.width
     grid_height: int = state.height
