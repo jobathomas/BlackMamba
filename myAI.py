@@ -13,11 +13,12 @@ Below is all of the data you'll need, and some small examples that you can uncom
 
 """
 
+# reset
+# reward
 
 def myAI(state: GameState) -> Turn:
 
     # write some code here
-
 
 
 
