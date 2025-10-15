@@ -1,5 +1,7 @@
 import random
 from collections import deque
+import snake.logic
+import torch
 from snake.logic import GameState, Turn, Snake, Direction
 
 """
@@ -13,6 +15,11 @@ Below is all of the data you'll need, and some small examples that you can uncom
 
 
 def myAI(state: GameState) -> Turn:
+
+    # write some code here
+
+
+
 
     grid_width: int = state.width
     grid_height: int = state.height
