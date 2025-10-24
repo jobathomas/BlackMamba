@@ -10,7 +10,6 @@ class Turn(Enum):
     STRAIGHT = 0
     RIGHT = 1
 
-
 # the cardinal directions, indexes DIRECTIONS
 class Direction(Enum):
     UP = 0

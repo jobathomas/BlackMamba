@@ -15,6 +15,9 @@ Below is all of the data you'll need, and some small examples that you can uncom
 
 # reset
 # reward
+# play(action) --> that returns a direction
+# game_iteration
+# is_collision
 
 def myAI(state: GameState) -> Turn:
 

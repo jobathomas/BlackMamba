@@ -40,7 +40,7 @@ class SnakeRenderer:
         self.CHECKER_LIGHT = rl.Color(162, 209, 73, 255)  # Lighter checker
         self.SNAKE_COLOR = rl.Color(58, 103, 240, 255)  # Google blue snake
         self.ENEMY_COLOR = rl.Color(231, 71, 71, 255)  # Red enemy snakes
-        self.APPLE_RED = rl.Color(231, 71, 71, 255)  # Bright red apple
+        self.APPLE_RED = rl.Color(0, 100, 30, 255)  # Bright red apple
         self.APPLE_GREEN = rl.Color(100, 180, 50, 255)  # Green leaf
         self.WHITE = rl.WHITE
         self.BLACK = rl.BLACK
