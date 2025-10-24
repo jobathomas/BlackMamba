@@ -21,7 +21,9 @@ Below is all of the data you'll need, and some small examples that you can uncom
 
 def myAI(state: GameState) -> Turn:
 
-    # write some code here
+
+
+
 
 
 
@@ -52,8 +54,6 @@ def myAI(state: GameState) -> Turn:
     # =       Try out some examples!       =
     # ======================================
 
-    # from examples.dumbAI import dumbAI
-    # return dumbAI(state)
 
     from examples.smartAI import smartAI
 
