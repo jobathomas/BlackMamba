@@ -23,10 +23,6 @@ def myAI(state: GameState) -> Turn:
 
 
 
-
-
-
-
     grid_width: int = state.width
     grid_height: int = state.height
     food: set = state.food
@@ -55,8 +51,6 @@ def myAI(state: GameState) -> Turn:
     # ======================================
 
 
-    from examples.smartAI import smartAI
+    from snake.GeniusAI import GeniusAI
 
-
-
-    return smartAI(state)
+    return GeniusAI(state)
