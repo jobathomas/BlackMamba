@@ -1,7 +1,6 @@
 import random
 from collections import deque
 import snake.logic
-import torch
 from snake.logic import GameState, Turn, Snake, Direction
 
 """
